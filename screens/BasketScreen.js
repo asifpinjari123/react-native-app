@@ -48,12 +48,7 @@ const BasketScreen = ({ navigation }) => {
         </View>
 
         <View className="flex-row items-center space-x-4 px-4 py-3 bg-white my-5">
-          {/* <Image
-            source={{
-              uri: "https://plus.unsplash.com/premium_photo-1661766131927-5026561fd0cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-            }}
-            className="w-7 h-7 bg-gray-300 p-4 rounded-full" */}
-          {/* /> */}
+         
           <Ionicons name="fast-food" color="#2c9935" size={30} />
 
           <Text className="flex-1"> Deliver in 10-15 mins</Text>
@@ -113,7 +108,7 @@ const BasketScreen = ({ navigation }) => {
 
           <TouchableOpacity
             className="rounded-lg bg-[#00ccbb] p-4 shadow-xl"
-            onPress={() => navigation.navigate("Prepare")}
+            onPress={() => navigation.navigate("Payment")}
           >
             <Text className="text-center text-white text-lg font-bold">Place Order</Text>
           </TouchableOpacity>

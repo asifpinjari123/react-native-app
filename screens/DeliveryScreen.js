@@ -75,12 +75,12 @@ const DeliveryScreen = ({ navigation }) => {
       <View className="bg-white flex-row items-center px-5 space-x-4 h-28">
         <Image
           source={{
-            uri: "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+            uri: "https://media.licdn.com/dms/image/C5122AQHJOBneBzEqYQ/feedshare-shrink_800/0/1562925314297?e=2147483647&v=beta&t=A_x0czKq6SnAV-LuEmx2VfheQsjwfZvaDO85jTZjvfs",
           }}
           className="h-12 w-12 bg-gray-300 rounded-full "
         />
         <View className="flex-1 ">
-          <Text className="text-lg">Akshansh</Text>
+          <Text className="text-lg">Aasif Pinjari</Text>
           <Text className="text-gray-400">Your Rider</Text>
         </View>
 

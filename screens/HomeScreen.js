@@ -53,7 +53,7 @@ const HomeScreen = () => {
         <View className="flex-row pb-3 items-center mx-4 space-x-2">
           <Image
             source={{
-              uri: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+              uri: "https://media.licdn.com/dms/image/D5603AQEkgt7PIr3Xyg/profile-displayphoto-shrink_800_800/0/1681660734193?e=2147483647&v=beta&t=cdga63S4c0a9yQZC2ZPUrtk2jrUGRxTkFFewowVUCwQ",
             }}
             className=" h-7 w-7 bg-gray-300 p-4  rounded-full"
           />

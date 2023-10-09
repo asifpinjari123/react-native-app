@@ -8,6 +8,8 @@ import RestaurantScreen from "./screens/RestaurantScreen";
 import { Provider } from "react-redux";
 import { store } from "./store";
 import BasketScreen from "./screens/BasketScreen";
+import Login from "./components/Login";
+import Payment from './components/Payment'
 import {
   CardStyleInterpolators,
   TransitionPresets,
@@ -24,8 +26,11 @@ export default function App() {
       <Provider store={store}>
         <TailwindProvider>
           <Stack.Navigator>
+          
+          <Stack.Screen name="Login" component={Login} />
             <Stack.Screen name="Home" component={HomeScreen} />
             <Stack.Screen name="Restaurant" component={RestaurantScreen} />
+            <Stack.Screen name="Payment" component={Payment} />
 
             <Stack.Screen
               name="Basket"
